@@ -1,0 +1,36 @@
+{
+  "name": "advent-of-code-2021",
+  "version": "1.0.0",
+  "description": "Advent of Code 2021",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexey-ledenev/advent-of-code-2021.git"
+  },
+  "keywords": [
+    "advent-of-code",
+    "typescript"
+  ],
+  "author": "alexey-ledenev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexey-ledenev/advent-of-code-2021/issues"
+  },
+  "homepage": "https://github.com/alexey-ledenev/advent-of-code-2021#readme",
+  "devDependencies": {
+    "@types/jest": "27.0.3",
+    "@types/node": "16.11.11",
+    "@typescript-eslint/eslint-plugin": "5.5.0",
+    "@typescript-eslint/parser": "5.5.0",
+    "eslint": "8.3.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-jest": "25.3.0",
+    "jest": "27.4.3",
+    "prettier": "2.5.0",
+    "typescript": "4.5.2"
+  }
+}
