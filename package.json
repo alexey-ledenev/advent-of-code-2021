@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Advent of Code 2021",
   "scripts": {
-    "lint": "eslint . --ext .ts",
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "lint": "eslint src/ --ext .ts",
+    "test": "jest"
   },
   "repository": {
     "type": "git",

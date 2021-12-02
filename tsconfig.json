@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "esnext",
     "lib": ["esnext"],
     "module": "esnext",
     "moduleResolution": "node",
@@ -17,10 +17,18 @@
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "strictFunctionTypes": true,
+    "noUnusedParameters": true,
     "esModuleInterop": true,
     "strictNullChecks": true,
-    "baseUrl": "."
+    "preserveSymlinks": true,
+    "baseUrl": "src/",
+    "paths": {
+      ":*": ["./src/*"]
+    },
+    "types": ["node", "jest"]
   },
-  "include": ["**/*.ts"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
 }
