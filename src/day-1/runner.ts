@@ -5,4 +5,4 @@ import { part2 } from './part-2'
 
 const input = readNumbersFromFile(join(__dirname, 'input.txt'))
 console.log(`Part 1: ${part1(input)}`)
-console.log(`Part 1: ${part2(input)}`)
+console.log(`Part 2: ${part2(input)}`)
